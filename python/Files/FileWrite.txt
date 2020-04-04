@@ -1,0 +1,2 @@
+I'm python.
+I was both compiled and interprated, Source code to byte code(compiled), bytecode to Machine code(Interpretor) This is all about me
