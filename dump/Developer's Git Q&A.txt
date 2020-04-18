@@ -1,0 +1,80 @@
+//*****TCS Internal*******
+What is the GIT command to blow away all changes since last commit?
+git checkout filename  --  Correct
+
+What is the GIT command to skip staging and directly commit the changes directly ?
+git commit -a -m “message”  --   Correct
+
+What does the command git add. do?
+Adds all the files to staging area  --  Correct
+
+GIT takes care of access control.
+False  --  Correct
+
+What is the GIT command to see all changes since the last commit ?
+git status  --  Correct
+
+It is a good practice to use present tense in commit messages.
+True  --  Correct
+
+GIT is a ___
+Distributed Version Control System --  Correct
+
+After performing several commits, or cloning a repository with an existing commit history
+git log  --  Correct
+
+What does the following command perform? Git reset –- soft HEAD^
+Move commit to one before current head
+
+*********************************************************************************************************
+
+When I run git fetch from my local repo it will update my local code?
+False  --  Correct
+
+What is the git command to directly create and move to a new branch?
+git checkout -b branchname  --  Correct
+
+What is the command to delete a branch in GIT?
+git branch -d branchname  --  Correct
+
+What is the GIT command to create a branch?
+git branch branchname  --  Correct
+
+What does the command git checkout branchname do?
+Switches from main branch to the new branch  --  Correct
+
+*********************************************************************************************************
+
+What is a good practice to follow when you want to back up a local branch?
+Push to remote repo  --  Correct
+
+What does the GIT command 'git remote prune origin' do?
+Cleans up all remote stale repos  --  Correct
+
+What is the command to delete a remote branch in GIT?
+git push origin : branchname  --  Correct
+
+A tag in GIT context is a
+Reference to a specific commit  --  Correct
+
+What is the GIT command to see all the remote branches?
+git branch -r  --  Correct
+
+If you want to list all the changes and know who made them at what time , what command should you use?
+git which user  --  Wrong
+
+If you want to see the changes since last commit in a specific file, what command should you use?
+git diff filename  --  Correct
+
+What is the output of the following code 'git log –- pretty = oneline'?
+Display one commit per line with SHA in the beginning  --  Correct
+
+What is the GIT command to view the log with code level changes?
+git log show code , git -l code  --  Wrong
+
+
+It is a good practice to include log files inside a repository.
+False  --  Correct
+
+What does the command 'git log - - oneline – graph' do?
+Visual representation of the branch merging into master  --  Correct
