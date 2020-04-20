@@ -1,0 +1,118 @@
+//*****TCS Internal*******
+Capacity testing _.
+is a critical testing and helps to verify technical aspects  --  Correct
+
+Accurev is a _ system.
+Stream Based Version Control  --  Correct
+
+____________ testing was derived from hardware testing.
+Smoke  --  Correct
+
+The continuous deployment must be followed to practice continuous delivery.
+True --  Correct
+
+Large scale changes to an application can be achieved using __.
+Branch by Abstraction  --  Correct
+
+Collection of executable codes is known as .
+Binaries  --  Correct
+
+A build can be triggered by a version control tool.
+True  --  Correct
+
+A build that fails __ stage will not be deployable.
+Acceptance  --  Correct
+
+**********************************************************************************************************************
+
+People who do the deployment should be part of creating the deployment process.
+True  --  Correct
+
+Dependencies between components must be represented using .
+Directed acyclic graph  --  Correct
+
+Time taken to fix a broken build is measured using __.
+Build repair rate  --  Correct
+
+Build-time dependency should be present when an application is run.
+False  --  Correct
+
+Build tools can be categorised as ____.
+Both the options  --  Correct
+
+Release candidate is created after the change passes through the .
+Commit Stage  --  Correct
+
+New instance of ___ is created upon every check-in.
+All of the options  --  Correct
+
+Continuous deployment aims at making feedback loops as short as possible.
+True  --  Correct
+
+_ is a paradigm to move code from check-in to production in a controlled way.
+Integration Pipeline  --  Correct
+
+Feature toggles is possible in version control systems.
+True
+
+User acceptance testing is a verification activity.
+False  --  Correct
+
+Configuration information can be supplied using .
+Environment variables  --  Wrong
+
+Disciplined technique for restructuring a code without modifying its external behavior is _.
+Refactoring
+
+Famous problem of dependency management is known as ___.
+DLL Hell
+
+Only positive scenarios are validated in ___ testing.
+Build Verification
+
+MTTR is ____.
+Mean Time to Repair failures.  --  Correct
+
+Automated implementation of an application's build, test, and deployment process is called as _.
+Deployment Pipeline  --  Correct
+
+True  --  Correct
+
+The deployment pipeline is initiated by the creation of a release candidate.
+False
+
+_ stage asserts that the system works at the technical level.
+Manual Test
+
+The capability of your build system to handle an increase in the amount of code that it integrates and analyzes is known as .
+Build performance
+
+Chef is an orchestration tool.
+True  --  Correct
+
+In branch by abstraction model, features are developed in _.
+Release Branch
+
+Steps to be followed to release the application first time is part of ___.
+Release Plan
+
+Static code analysis is performed in the _.
+Commit stage  --  Correct
+
+User acceptance testing is done in the stage.
+Manual Test  --  Correct
+
+Functional testing is a verification activity.
+True  --  Correct
+
+Testing done in a customer's environment is know as .
+Beta  --  Correct
+
+Value delivered by an application is validated through .
+All of the options  --  Correct
+
+_ is a central part of continuous deployment.
+Deployment Pipeline  --  Correct
+
+____ stage takes the delivery team beyond continuous integration.
+Acceptance  --  Correct

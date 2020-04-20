@@ -1,0 +1,60 @@
+//*****TCS Internal*******
+What is the git command to see the last 3 commits in one line ?
+git log -–oneline -3  --  Correct
+
+How do I view all the commits for the last 2 weeks ?
+git log -–since=”2 weeks ago”  --  Correct
+
+What is the significance of using –index in the git stash pop - - index command ?
+To pull the staged changes  --  Correct
+
+What is the command to temporarily store uncommitted ?
+git stash  --  Correct
+
+What command should I use to retrieve my files that have been temporarily stashed ?
+git stash pop – index  --  Correct
+
+what is the command to view all the commits made by a specific person (Jim)?
+git log -–author=”Jim”  --  Correct
+
+What is the git command to see all the commit since 1st January 2017 ?
+git log -–since=”2017-01-01”
+
+A good commit message can have have more then 100 characters.
+False  --  Correct
+
+What is the output of the command git reset -–soft HEAD ~5 ?
+move the last 5 commits as 1 into the staging area  --  Correct
+
+What is the output of the command git reset –hard HEAD ~3?
+throw away the last 3 commits  --  Correct
+
+I want to take all the changes I made in the staging to my working directory , what command should I use to do this operation ?
+git reset HEAD  --  Correct
+
+A good commit message should be descriptive and specific
+True  --  Correct
+
+What is the command to amend an incorrect commit message ?
+git commit –amend -m “correct message”  --  Correct
+
+What is the command to pick a commit from a specific branch and move it to another branch ?
+git cherrypick  --  Correct
+
+Which command helps you track the revisions of your revisions in git ?
+git reflog  --  Correct
+
+I have made a commit and discarded it . I can still retrieve that commit using git reflog.
+True  --  Correct
+
+git reflog track the commits that are made and the commits that are discarded .
+True  --  Correct
+
+What is the git command to move branch pointer to different commit without checkout ?
+git update-ref  --  Correct
+
+git reflog –verbose will print extra information on the screen.
+True  --  Correct
+
+git bisect is used to identify a commit that has introduced a bug .
+True  --  Correct

@@ -1,0 +1,65 @@
+//*****TCS Internal*******
+What is ChatOps ?
+Philosophy  --  Correct
+Collaboration Practice  --  Correct
+
+ChatOps helps in _
+All the options mentioned  --  Correct
+
+Compare the notifications triggered during Exercise 1 and Exercise 2. Which of the following notification to slack are missing when the GitHub repository is updated in authed mode vs. unauthed mode.
+Pull Notification  --  Correct
+
+Merge the Pull request in GitHub for the updates made to starfeature branch. Which channels would receive notification for this event?
+stakeholders and starprojectteam  --  Correct
+
+Delete the branch starfeature in GitHub. Which channels would receive notification for this event?
+starprojectteam  --  Correct
+
+Update the README.md file in the GitHub Branch starfeature and Commit the updates. Which channels would receive notification for this event?
+starprojectteam  --  Correct
+
+Create a New Pull Request. Review the changes between master and starfeature branch, and confirm by clicking Create pull request. Which channels would receive notification for this event?
+stakeholders and starprojectteam  --  Correct
+
+"ChatOps primary aim is to move conversations away from e-mail and into business chat tools." Is this statement correct?
+False  --  Correct
+
+Which of the following Bots are written in Ruby
+Lita  --  Correct
+
+Which of the following activities can be automated through ChatOps
+All the options mentioned , Make Server Configuration Changes --  Wrong
+
+
+Few Channels in Slack are listed with a lock symbol in the Explorer, because these channels are ___
+Private  --  Correct
+
+Through ChatOps, communication can be bi-directional. i.e. users can submit commands from the chat room to the bots, which direct the commands to the respective systems; the systems can automatically push status to the chat room directly.
+True  --  Correct
+
+Which of the following is not an ideal target to automate through ChatOps
+Auto Scaling Servers  --  Correct
+
+Through Chat Client, users can
+All the options mentioned  --  Correct
+
+Which of the following are the technical benefits that the teams can realize by adapting ChatOps
+All the options mentioned  --  Correct
+
+Through ChatOps, collaboration is tied to the IT systems and processes, therefore making it more
+All the options mentioned  --  Correct
+
+Which of the following is the main consideration while choosing a Chatbot?
+All the options mentioned  --  Correct
+
+Which of the following is not a ChatClient
+Lita  --  Correct
+
+Can Chatbot be used by a restaurant to take customer orders and make menu items suggestions.
+Yes  --  Correct
+
+ChatOps is a collaboration model which offers a single and persistent location, for ___ to collaborate with each other.
+People, Bots and Tools  --  Correct
+
+Which of the following tools can not be integrated into ChatOps.
+Eclipse  --  Correct

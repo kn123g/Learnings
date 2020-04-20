@@ -1,0 +1,187 @@
+//*****TCS Internal*******
+Hbase main server components include all except _
+Hbase Memstore - Correect
+
+In column-oriented stores, data is stored on a basis.
+Column Family - Correct
+
+In Hbase, 'Columns' are named and specified in table definition.
+Fales ------ Correct
+
+HBase Tables are divided _ by row key range into .
+horizontally - regions  ----------- Correct
+
+Columnar databases are preferable for OLTP systems.
+False - Correct
+
+Cassandra allows to define composite Primary Keys.
+True - Correct
+
+Pre-join projection is equivalent to as in traditional relational systems.
+Materialized view - Correct
+
+In a column-database a row is being uniquely identified by __.
+Row-key - Correct
+
+In Cassandra, the ___ determines how many copies of the data will be maintained across multiple nodes.
+Replication factor - Correct
+
+The column store has to perform _ IO to insert a new value.
+as many disk blocks ----- Correct
+
+The row store needs to perform _ IO to insert a new value.
+Single  --- Correct
+
+In a columnar database, the columns are stored together on disk, achieving a higher compression ratio is an expensive operation.
+False  ----- Correct
+
+A column-database used to store __ versions of each cells.
+Multiple ----- Correct
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+NoSQL databases are designed to expand _
+horizontally  --- Correct
+
+Horizontal scaling approach tends to be cheaper as the number of operations and the size of the data increases.
+True  --- Correct
+
+distributes different data across multiple servers.
+Sharding  --- Correct
+
+Limitations of RDBMS are .
+Scalability/Database design complexity    --- Correct
+
+Full-form of 'CRUD' is _.
+Create-Read-Update-Delete  --  Correct
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Key-value pair data storages include all except .
+Network Attached Storage
+
+Cassandra has properties of both and __ 
+Google Bigtable / Amazon Dynamo
+
+A Riak convergent replicated data type (CRDT) includes
+Maps/Sets/Counters
+
+A Key-value store does not support Secondary Indexes.
+False
+
+The RDBMS 'table' equivalent terminology in Riak is .
+bucket
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+In MongoDB, there is a similar feature of 'like' expression as like RDBMS
+False  --- Correct
+
+The MATCH clause is roughly equivalent to the clause in SQL and the RETURN clause to a _ clause.
+Where, Select  ---- Correct
+
+______ is a syntax for retrieving specific elements from an XML document.
+Xpath   ----  Correct
+
+MongoDB read/write performance can be tuned with the help of Stored Procedures.
+False  --- Correct
+
+An RDBMS equivalent component for a "document identifier" in a Document database:
+Foreign Key-value  -- Correct
+
+An RDBMS equivalent component for a "document" in a Document database:
+Row  ---  Correct
+
+Document databases split a document into its constituent name/value pairs for indexing purpose.
+False   -----  Correct
+
+An RDBMS equivalent component for a "collection" in a Document database:
+Tables  --- Correct
+
+JSON documents are built up of _.
+Both the option   --- Correct
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Only Nodes have properties in Graph database.
+False  --- Correct
+
+The major components of a Graph include all except _.
+JSON  ---  Correct
+
+Cypher query language is associated with __
+Neo4j  --- Correct
+
+Neo4j architecture is a self-driven and independent architecture because of __
+Both the options   ---  Correct
+
+Graph databases are generally built for use with .
+OLTP  ---  Correct
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Hbase Data blocks metadata information are being maintained by _ .
+NameNodes  ---  Correct
+
+Hbase Region assignment operation is being handled by _.
+Hbase Master  ---  Correct
+
+In case of a Strict consistency, a read will always return the most recent data value.
+True
+
+Sorted Column store would provide higher compression ratio by representing each column as compared to the preceding one.
+Delta  --- Correct
+
+Some of the common Read Consistency level in Cassandra include all except __.
+ONE|TWO|THREE
+
+Some of the common Write Consistency level in Cassandra include all except ___.
+ONE|TWO|THREE  --  Wrong
+
+The equivalent Hbase structure of an in-memory tree in Log-structured Merge Trees is __.
+Hfile   ----  Wrong
+
+_ are replicated to allow failover in MongoDB.
+Shards
+
+Read overhead in a Columnar database can be partly reduced by Multicolumn projection and _.
+Sorted Column  ---  Wrong
+
+In Cassandra, if the replication factor is 3, the coordinator will send replicas of the data item to the next _ nodes on the ring.
+2 (n-1)  --- Correct
+
+Wiredtiger storage engine is a part of ___.
+MongoDB  ---  Correct
+
+Kudu can be accessed via all except _.
+Mapreduce
+
+The equivalent Hbase structure of an on-disk trees in Log-structured Merge Trees is ___.
+StoreTable   
+
+In case of an Eventual consistency, reads may not return the most recent value, but reads will not return values “out of sequence.”
+Fales  --  Correct
+
+Transactional integrity is relevant in case of batch-centric Hadoop-based analytics on warehoused data.
+False  -- Correct
+
+Riak demonstrates dual nature of
+key/value store and a document database  ---  Correct
+
+Cassandra's Gossip Protocol can take care of the heartbeat lost due to _ in a widely distributed system.
+Both node failure and network issue  --  Correct
+
+The process through which the on-disk tree files periodically merged to create larger consolidated stores is called __.
+Compaction    --- Correct
+
+In Riak, consistency model is implemented
+Eventual   ---  Correct
+
+Like most relational databases, Kudu also offers secondary indexes and uniqueness constraints.
+False  ---  Correct
+
+Hbase DDL Operations (create, delete tables) are maintained by ___.
+Hbase Master  ---  Correct
+
+Cassandra lightweight transactions (LWT) supports pattern.
+Compare-and-set  --  Correct
