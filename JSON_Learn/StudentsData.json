@@ -1,0 +1,20 @@
+[{"name" : "karthikeyan",
+    "Age":"23",
+    "Subject":["English",
+                "Tamil",
+                "Maths",
+                "Science",
+                "Social"],
+    "Projects" : [{"01":"AI"},
+                {"02":"IOT"}]
+    },
+    {"name" : "kavi",
+    "Age":"22",
+    "Subject":["English",
+                "Tamil",
+                "Maths",
+                "Science",
+                "Social"],
+    "Projects" : [{"A01":"AI"},
+                {"B02":"IOT"}]
+    }]
