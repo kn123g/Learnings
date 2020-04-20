@@ -3,7 +3,6 @@ var Student;
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     Student = JSON.parse(this.responseText);
-
         var html = '<ul>';
         for (i in Student)
         {
