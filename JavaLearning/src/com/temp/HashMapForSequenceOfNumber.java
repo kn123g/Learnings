@@ -7,10 +7,8 @@ import java.lang.*;
 public class HashMapForSequenceOfNumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int i = 1,j;
 		Map<Integer, Integer> temp = new LinkedHashMap<Integer, Integer>();
-		
 		int input[] = { 5, 2, 3, 5, 8, 7, 2, 3, 8 };
 		temp.put(input[0],1);
 		while (i<input.length) {
@@ -23,9 +21,7 @@ public class HashMapForSequenceOfNumber {
 						//System.out.println(temp.toString());
 						break;
 					}
-					
 				}
-				
 			}
 			else {
 				temp.put(input[i],1);
