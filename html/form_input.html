@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+</head>
+<body>
+   <form action="action.php">
+       <!-- input text -->
+       <div>
+           <label for="name">FirstName</label><br>
+           <input type="text" id="fname" name="name" placeholder="Enter name" value="karthi">
+       </div>
+       <!-- input email -->
+       <div>
+           <label for="email">Email</label><br>
+           <input type="email" name="email" id="emailid" placeholder="Enter emailID">
+       </div>
+       <!-- text area -->
+       <div>
+           <label for="message">Message</label><br>
+           <textarea name="message" id="msg" cols="25" rows="5" placeholder="Enter message"></textarea>
+       </div>
+       <!-- select list -->
+       <div>
+           <label for="sex">Gender</label><br>
+           <select name="sex" id="sex">
+               <option value="Male">Male</option>
+               <option value="Female">Female</option>
+               <option value="other" selected>Other</option>
+           </select>
+       </div>
+       <!-- input number -->
+       <div>
+           <label for="age">Age</label><br>
+           <input type="number" name="age" id="age" placeholder="Enter age">
+       </div>
+       <!-- input date -->
+       <div>
+           <label for="bdate">Date of Birth</label><br>
+           <input type="date" name="bdate" id="bdate">
+       </div>
+       <!-- input radio -->
+       <div>
+           <label for="membership">Membership</label><br>
+           <input type="radio" value="simple" name="membership" id="membership" checked>Simple
+           <input type="radio" value="standard" name="membership" id="membership">Standard
+           <input type="radio" value="super" name="membership" id="membership">Super
+       </div>
+       <!-- input checkbox -->
+       <div>
+           <label for="hobby">I like..</label><br>
+           <input type="checkbox" name="hobby" id="hobby" value="music" checked>Music
+           <input type="checkbox" name="hobby" id="hobby" value="dance" checked>Dance
+           <input type="checkbox" name="hobby" id="hobby" value="coding">Coding
+       </div>
+       <!-- Submit,Reset button -->
+       <div>
+           <input type="submit" value="Submit">
+           <button type="submit">Submit</button>
+           <input type="reset" value="Reset">
+       </div>
+   </form>
+</body>
+</html>
