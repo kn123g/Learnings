@@ -1,0 +1,14 @@
+  /* id selector */
+#welcome{
+    background-color: aliceblue;
+}
+/* multiple selector */
+#welcome,#about{
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    padding:10px;
+}
+/* nested selector */
+#welcome p{
+    font-size:20px;
+}
