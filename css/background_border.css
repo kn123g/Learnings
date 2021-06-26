@@ -1,0 +1,35 @@
+
+        #box1{
+            /* border-width: 2px;
+            border-style: solid;
+            border-color: blue; */
+            border:2px solid blue;
+            background: aquamarine;
+            border-radius: 10px;
+        }
+        #box2{
+            background: brown;
+            color: #ffffff;
+            border:2px solid blue;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #box3{
+            /* background-image: url("https://picsum.photos/200/300");
+            background-repeat: no-repeat;
+            background-position: center top; 
+            background-position: 20px 20px;
+            background-size: cover;
+            background-size: contain; */
+            background: url("https://picsum.photos/200/300") no-repeat 20px 20px/contain;
+            color:#ffffff;
+            border:2px solid blue;
+            background-color: #333333;
+            height: 200px;
+        }
+        #box4{
+            background: url("https://www.freepnglogos.com/uploads/pubg-png/pubg-lite-beta-will-available-four-more-countries-34.png") no-repeat 20px 20px/contain;
+            background-attachment: fixed;
+            height: 600px;
+        }
+    
