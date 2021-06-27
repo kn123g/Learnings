@@ -1,0 +1,13 @@
+*{
+    margin: 10px 20px;
+    
+}
+.box{
+    padding:10px 100px;
+    width: 500px;
+    border:5px solid blue;
+}
+#box2{
+    /* padding and margin included into width */
+    box-sizing: border-box;
+}
