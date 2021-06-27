@@ -1,0 +1,26 @@
+#container{
+    max-width: 900px;
+    /* makes center align */
+    margin: 10px auto;
+}
+.box{
+    margin:10px;
+    padding: 20px;
+    border: 2px solid blue;
+}
+.box p{ 
+    text-align: center;
+    text-align:justify;
+}
+#box2{
+    float:left;
+    width: 50%;
+}
+#box3{
+    float:right;
+    width: 35%;
+}
+#box4{
+    /* need to clear the float for the element after float element */
+    clear: both;
+}
