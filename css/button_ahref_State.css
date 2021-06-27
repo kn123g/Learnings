@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color:#333;
+    /* removes underline for a href tag */
+    text-decoration: none;
+}
+/* once clicked always red even after refresh */
+/* a:visited{
+    color:red;
+} */
+
+/* active => while pressed */
+a:active{
+    color:red;
+}
+.btn{
+    background: blue;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding:10px 20px;
+    /* hand with one finger */
+    cursor: pointer;
+}
+/* hover => cursor on element */
+.btn:hover{
+    background: red;
+    color:white;
+}
