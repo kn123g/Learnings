@@ -1,0 +1,13 @@
+.box{
+    width: 700px;
+    border:1px solid grey;
+    border-radius: 10px;
+}
+#box1 p{
+    /* space will be there only element is hidded */
+    visibility: hidden;
+}
+#box2 p{
+    /* space and element is removed */
+    display: none;
+}
