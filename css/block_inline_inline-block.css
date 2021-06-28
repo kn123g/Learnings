@@ -1,0 +1,17 @@
+li{
+    display: inline;
+}
+li a{
+    padding-right: 20px;;
+}
+img{
+    display: block;
+    margin:auto;
+}
+.box{
+    width: 32%;
+    border:1px solid gray;
+    /* display:inline; -> ignores width and margin so added inline-block */
+    display: inline-block;
+    background: cadetblue;
+}
