@@ -1,0 +1,48 @@
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* Side Menu */
+   .side-menu{
+       /* remove bullet */
+       list-style: none;
+       border: 1px solid #ddd;
+       border-radius:10px;
+       width:300px;
+       padding:20px;
+   }
+   .side-menu li{
+       font-size:18px;
+       line-height:2.4em;
+       border-bottom:dotted 1px #ddd;
+   }
+   .side-menu li:last-child{
+       border:none;
+   }
+   .side-menu li a{
+       color:#333;
+       text-decoration: none;
+   }
+   /* Nav bar */
+   .navbar{
+       /* remove bullet */
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       background: #4c6ca0;
+       border-radius:auto;
+       /* Content Overflow (add scroll or hide content) */
+       overflow: auto;
+   }
+   .navbar li{
+       float:left;
+   }
+   .navbar li a{
+       display:block;
+       color:#fff;
+       text-decoration: none;
+       padding: 15px 20px;
+   }
+   .navbar li a:hover{
+       background: #446190;
+       color:#f4f4f4;
+   }
