@@ -1,0 +1,58 @@
+    body{
+        height: 2000px;
+        color: black;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    .box h6{
+        display: inline;
+    }
+    #box1{
+        background: red;
+        /* relative has relation between parent element*/
+        position: relative;
+        top:20px;
+        left:20px;
+    }
+    #box2{
+        display: inline-block;
+        background: yellow;
+        position: relative;
+        top:10px;
+        left:10px;
+    }
+    #box3{
+        display: inline-block;;
+        background: green;
+        position: relative;
+        top:10px;
+        left:10px;
+    }
+    #box4{
+        display: inline-block;;
+        background: blue;
+        /* absolute don't have relation between elements*/
+        position: absolute;
+        top:50px;
+        left:50px;
+        z-index: 1;
+    }
+    #box5{
+        background: brown;
+        top:0;
+        /* moves but sticked on specified position */
+        position: sticky;
+    }
+    #box6{
+        background: orange;
+         /*  fixed on specified position doesn't move*/
+        position: fixed;
+    }
+    .container{
+        position: relative;
+        width:500px;
+        height:200px;
+        background: gray;
+    }
