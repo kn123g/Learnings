@@ -1,0 +1,22 @@
+#box-1{
+    font-size:20px;
+}
+#box-1 p{
+    /* get current font-size and makes 1.5 times  current is parent element*/
+    font-size: 1.5em;
+    padding: 1em;
+}
+#box-1 ul{
+    font-size: 1.2em;
+}
+html{
+    font-size: 15px;
+}
+#box-2 p{
+    /* get root font-size and makes 1.5 times root is html */
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+#box-2 ul{
+    font-size: 1.5rem;
+}
