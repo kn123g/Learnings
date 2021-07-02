@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
 #box-1{
-    font-size:20px;
+    font-size:15px;
 }
 #box-1 p{
     /* get current font-size and makes 1.5 times  current is parent element*/
@@ -8,9 +13,10 @@
 }
 #box-1 ul{
     font-size: 1.2em;
+    padding: 0.5em;
 }
 html{
-    font-size: 15px;
+    font-size: 12px;
 }
 #box-2 p{
     /* get root font-size and makes 1.5 times root is html */
@@ -19,4 +25,16 @@ html{
 }
 #box-2 ul{
     font-size: 1.5rem;
+}
+
+body{
+    background: black;
+    margin:0;
+    padding:0;
+}
+.container{
+    background: darkkhaki;
+    height:90vh;
+    width: 80vw;
+    margin:0 auto;
 }
