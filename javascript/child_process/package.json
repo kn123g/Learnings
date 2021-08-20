@@ -1,0 +1,23 @@
+{
+  "name": "child_process_learnong",
+  "version": "1.0.0",
+  "description": "exec exec spawn fork",
+  "main": "child.js",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "loadtest": "^5.1.2"
+  },
+  "type": "module",
+  "scripts": {
+    "forkexpress": "node fork_using_express.js",
+    "clusterexpress": "node scalable_express_using_cluster.js",
+    "loadtestone": "npx loadtest -n 10 -c 100 http://localhost:3000/one",
+    "loadtesttwo": "npx loadtest -n 10 -c 100 http://localhost:3000/two",
+    "loadtestthree": "npx loadtest -n 10 -c 100 http://localhost:3000/three"
+  },
+  "author": "karthikeyan",
+  "license": "ISC"
+}
