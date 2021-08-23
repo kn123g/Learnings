@@ -1,0 +1,14 @@
+{
+  "name": "javascript_tutorial",
+  "version": "1.0.0",
+  "description": "all my java script learnings",
+  "main": "AJAX_API_for_of_for_in.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karthikeyan",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
