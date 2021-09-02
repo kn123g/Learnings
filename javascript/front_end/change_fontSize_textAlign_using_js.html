@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="increase">hai</p>
+    <p class="increase">bye</p>
+    <button onclick="changeFontSize()">increase fontSize and textAlign center</button>
+    <script>
+        function changeFontSize() {
+            console.log('hello')
+            let arr = document.getElementsByClassName('increase');
+            for (let i = 0; i < arr.length; i++) {
+                arr[i].style.fontSize = '30px'
+                arr[i].style.textAlign = 'center'
+            }
+        }
+    </script>
+</body>
+
+</html>
