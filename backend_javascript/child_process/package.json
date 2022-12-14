@@ -5,7 +5,7 @@
   "main": "child.js",
   "dependencies": {
     "cluster": "^0.7.7",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "loadtest": "^5.1.2"
